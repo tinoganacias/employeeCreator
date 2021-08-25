@@ -176,38 +176,35 @@ function buildHTML() {
                  manager+=` 
                 
                 
-            <div class="card" style="background-color: lightblue;" style="width: 18rem;">
-     <div class="card-body">
-    <h5 class="card-title">${managerIndex.name} - Manager</h5>
-    <h6 class="card-subtitle mb-2 text-muted">ID: ${managerIndex.ID}</h6>
-    <p class="card-text">office number: ${managerIndex.officeNumber}</p>
-    <a href="mailto:${managerIndex.email}" class="card-link">email</a>
+        <div class="card" style="background-color: lightblue;" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">${managerIndex.name} - Manager</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">ID: ${managerIndex.ID}</h6>
+                        <p class="card-text">office number: ${managerIndex.officeNumber}</p>
+                            <a href="mailto:${managerIndex.email}" class="card-link">email</a>
  
-  </div>
-
-                            
-                                
-                            </div>
-                        </div>
+        </div>
+            </div>
+                </div>
                     </div>
-                </div>`
-            }
-            return manager
-        }
+                        </div>`
+         }
+           return manager
+         }
     
-        function createEngineerCard() {
+            function createEngineerCard() {
             let engineer = ``;
             for (let i = 0; i < engineerArray.length; i++) {
                 const engineerIndex = engineerArray[i];
                 engineer+= `
                 
-                <div>
-                <div class="card mx-auto mb-3" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">${engineerIndex.name} - Engineer</h5>
-    <h6 class="card-subtitle mb-2 text-muted">ID: ${engineerIndex.ID}</h6>
-    <a href="https://GitHub.com/${engineerIndex.GitHub}" class="card-link">GitHub</a>
-    <a href="mailto:${engineerIndex.email}" class="card-link">email</a>
+           <div>
+           <div class="card mx-auto mb-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">${engineerIndex.name} - Engineer</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">ID: ${engineerIndex.ID}</h6>
+                            <a href="https://GitHub.com/${engineerIndex.GitHub}" class="card-link">GitHub</a>
+                                <a href="mailto:${engineerIndex.email}" class="card-link">email</a>
  
   </div>
     </div>
