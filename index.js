@@ -210,21 +210,11 @@ function buildHTML() {
     <a href="mailto:${engineerIndex.email}" class="card-link">email</a>
  
   </div>
-</div>
-                            
-                                
-                            </div>
-                        </div>
-                    </div>
-                
-                
-                
-                
-       
-                     ` 
-                
-                
-            }
+    </div>
+        </div>
+            </div>
+               </div>` 
+        }
             return engineer
         }
     
@@ -235,32 +225,21 @@ function buildHTML() {
                 intern+= `
                 <div>
                 <div class="card mx-auto mb-3" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title">${internIndex.name} - Intern</h5>
-    <h6 class="card-subtitle mb-2 text-muted">ID: ${internIndex.ID}</h6>
-    <h6 class="card-subtitle mb-2 text-muted">school: ${internIndex.school}</h6>
-    
-    <a href="mailto:${internIndex.email}" class="card-link">email</a>
+        <div class="card-body">
+            <h5 class="card-title">${internIndex.name} - Intern</h5>
+                <h6 class="card-subtitle mb-2 text-muted">ID: ${internIndex.ID}</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">school: ${internIndex.school}</h6>
+                         <a href="mailto:${internIndex.email}" class="card-link">email</a>
  
-  </div>
-</div>
-                            
-                                
-                            </div>
+        </div>
+            </div>
+                </div>
+                   </div>
                         </div>
-                    </div>
-                </div>
-                </div>
-                
-               </div>
-               
-               
-               
-          
-                    
-                `
+                            </div>
+                                </div>
+                                    </div>`
             }
-            return intern
-
-}
+                return intern
+            }
 
