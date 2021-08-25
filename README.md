@@ -7,9 +7,9 @@ This is a Node.js command-line application that takes in information about emplo
 ## Table of Contents
 
 -[Installation] (#Installation)
--[Usage](#Usage)
--[License](#License)
--[Links](#Links)
+-[Usage] (#Usage)
+-[License] (#License)
+-[Links] (#Links)
 
 ## Installation
 
