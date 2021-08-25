@@ -23,7 +23,7 @@ Installation of the application will require npm Jest and npm Inquirer.  Once in
 
 ## Links
 
-Walkthrough Video:
+Walkthrough Video: https://drive.google.com/file/d/1BUdija1yQabe1ouLlRXKdMwH59syGgsg/view
 
 ## License
 
