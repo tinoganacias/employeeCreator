@@ -17,6 +17,10 @@ Installation of the application will require npm Jest and npm Inquirer.  Once in
 
 ## Usage
 
+![employeeCreater1](https://user-images.githubusercontent.com/84544540/130845918-d1e94ccc-f7a2-49a8-8563-fee2b6b71ca5.PNG)
+![image](https://user-images.githubusercontent.com/84544540/130845958-4c7b4b3c-4538-454b-8c6c-07d0dee3f029.png)
+
+
 ## License
 
 ## Links
